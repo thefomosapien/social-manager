@@ -3,7 +3,7 @@ import { createServiceClient } from '@/lib/supabase/service'
 
 export const dynamic = 'force-dynamic'
 
-const ALLOWED_PLATFORMS = ['twitter', 'instagram', 'linkedin', 'tiktok', 'facebook'] as const
+const ALLOWED_PLATFORMS = ['twitter', 'instagram', 'linkedin', 'tiktok', 'facebook', 'x', 'threads'] as const
 const ALLOWED_STATUSES = ['draft', 'approved', 'published', 'skipped'] as const
 const ALLOWED_SOURCES = ['routine', 'debate', 'manual'] as const
 
