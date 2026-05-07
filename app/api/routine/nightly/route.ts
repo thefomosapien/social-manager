@@ -34,7 +34,12 @@ export async function GET(request: NextRequest) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const supabase = createServiceClient()
+  let supabase: ReturnType<typeof createServiceClient>
+  try {
+    supabase = createServiceClient()
+  } catch (e) {
+    return Response.json({ error: (e as Error).message }, { status: 500 })
+  }
 
   const { data: drafts, error: fetchError } = await supabase
     .from('posts')
