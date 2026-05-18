@@ -34,6 +34,15 @@ export async function GET(request: NextRequest) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  const hasKey = !!process.env.SUPABASE_SERVICE_ROLE_KEY
+  if (!supabaseUrl || !hasKey) {
+    return Response.json(
+      { error: 'Missing Supabase env vars', hasUrl: !!supabaseUrl, hasKey },
+      { status: 500 }
+    )
+  }
+
   const supabase = createServiceClient()
 
   const { data: drafts, error: fetchError } = await supabase
@@ -43,7 +52,10 @@ export async function GET(request: NextRequest) {
     .eq('status', 'draft')
 
   if (fetchError) {
-    return Response.json({ error: fetchError.message }, { status: 500 })
+    return Response.json(
+      { error: fetchError.message, detail: fetchError.details, supabaseUrlHost: new URL(supabaseUrl).hostname },
+      { status: 500 }
+    )
   }
 
   const currentCount = drafts?.length ?? 0
