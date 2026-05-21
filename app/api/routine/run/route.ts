@@ -8,45 +8,50 @@ const TARGET_DRAFTS = 5
 type Post = { platform: 'x' | 'threads'; copy: string }
 
 const POSTS: Post[] = [
+  // Hot-take questions
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: loyalty to a friend who\'s wrong is just enabling with a nicer name. Do you defend them or tell the truth? The community needs to know. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'Hot take: apology culture has made us worse at accountability, not better.\n\nSaying sorry got cheap. Changing behavior got rare.\n\nDo public apologies actually mean anything anymore? Cast your vote. duhbate.app',
   },
+  // "The community decided..." results posts
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'The community decided: replying "k" to a long heartfelt text is a power move, not rudeness. 61% voted yes. The minimalists are running this app. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'The community decided: splitting the bill on a first date is a green flag, not a red one.\n\n72% of Duhbate voters agreed. Romance is alive — it just has Venmo.\n\nWas the crowd right? duhbate.app',
   },
+  // Platform explainers
   {
     platform: 'x',
     copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Here\'s how Duhbate works: you drop a take, someone counters it, and the crowd votes who actually won.\n\nNo algorithm. No followers. Just the strength of your argument.\n\nThink you can hold your ground? duhbate.app',
   },
+  // Open provocations
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'Somewhere right now someone is absolutely wrong about something they\'re completely confident in. Maybe it\'s you. Only one way to find out. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'The opinion you\'re most sure about is probably the one you\'ve tested the least.\n\nComfort zones don\'t debate back. Real people do.\n\nWhat\'s the take you\'ve never had to actually defend? duhbate.app',
   },
+  // CTA posts
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Make your case. Face the crowd. If your argument holds up, the votes will prove it. If it doesn\'t — now you know. Start now. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'You\'ve had this take for years. You\'ve never had to defend it.\n\nDuhbate is where takes either survive or fall apart — in public, in real time, decided by real votes.\n\nReady? Make your case. duhbate.app',
   },
 ]
 
