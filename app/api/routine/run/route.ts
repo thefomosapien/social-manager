@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: the smarter you are, the better you are at convincing yourself you\'re right. That\'s not wisdom — that\'s just a fancier echo chamber. Prove it wrong. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'Hot take: being the bigger person is overrated.\n\nSometimes the other person needs to be told they\'re wrong — clearly and publicly. Growth doesn\'t always look like grace.\n\nIs "being the bigger person" wisdom or weakness? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'The community decided: sleeping in on weekends doesn\'t make up for a bad sleep schedule. 73% voted yes. The overachievers showed up. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'The community decided: reply-guys who correct strangers online are doing more harm than good.\n\n71% agreed. The internet\'s most annoying profession got voted down.\n\nStill convinced you\'re helping? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Three phases. Two sides. One winner. You argue. Someone counters. Voters decide who\'s actually right. No refs. No mercy. Just the crowd. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Three phases. Two sides. One winner.\n\nDrop your argument. A challenger fires back. Then the crowd — real people, not an algorithm — votes on who actually won.\n\nYour conviction versus everyone else\'s. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'Most people have never defended their strongest opinion against someone who actually disagrees. They\'re just performing confidence. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'There\'s an opinion you\'ll die on in private but go quiet about in public.\n\nThat\'s not tact. That\'s untested conviction.\n\nWhat\'s the take you keep to yourself — and why haven\'t you defended it yet? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Your take is either bulletproof or it isn\'t. There\'s only one way to find out. Make your case. Face the crowd. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Most opinions never survive a real challenge. They just get repeated until they feel true.\n\nDuhbate is where you find out if yours holds up — argue it, defend it, let the crowd decide.\n\nMake your case. Face the crowd. duhbate.app',
   },
 ]
 
