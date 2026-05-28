@@ -31,6 +31,24 @@ const POOL: Array<{ platform: string; copy: string }> = [
 ]
 
 export async function GET(request: NextRequest) {
+  const mode = request.nextUrl.searchParams.get('mode')
+
+  if (mode === 'diag') {
+    const results: Record<string, string> = {}
+    for (const [label, url] of [
+      ['httpbin', 'https://httpbin.org/get'],
+      ['supabase_health', `${SB_URL}/rest/v1/`],
+    ] as [string, string][]) {
+      try {
+        const r = await fetch(url, { signal: AbortSignal.timeout(5000) })
+        results[label] = `${r.status} ${r.statusText}`
+      } catch (e: unknown) {
+        results[label] = e instanceof Error ? e.message : String(e)
+      }
+    }
+    return Response.json({ diag: results, env_url: process.env.NEXT_PUBLIC_SUPABASE_URL ?? 'unset' })
+  }
+
   const sb = createClient(SB_URL, SB_KEY)
 
   const { count, error: countErr } = await sb
