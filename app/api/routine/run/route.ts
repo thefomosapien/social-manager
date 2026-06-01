@@ -10,11 +10,27 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Is confidence just arrogance that turned out to be correct? The line is razor-thin and the crowd doesn\'t care which side you\'re on until after the vote. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community voted: silence during conflict isn\'t maturity — it\'s passive aggression with better PR.\n\n67% of Duhbate voters agreed. The case for speaking up won, barely, in one of our closest debates ever.\n\nWhat\'s the argument you\'ve been avoiding? duhbate.app',
+  },
+  {
+    platform: 'x',
+    copy: 'Three phases. Two sides. One winner. Make your case → get countered → the crowd decides. No moderator. No mercy. Just the strongest argument standing. duhbate.app',
+  },
+  {
+    platform: 'threads',
+    copy: 'There are takes you\'re afraid to say out loud because you know they won\'t survive a challenge.\n\nThat\'s not wisdom. That\'s cowardice with better lighting.\n\nThe arena is open. What do you actually believe? duhbate.app',
+  },
+  {
+    platform: 'x',
+    copy: 'Make your case. Face the crowd. Your opinion isn\'t worth much until it\'s been challenged. Start a debate. Find out where you actually stand. duhbate.app',
+  },
+  {
+    platform: 'threads',
+    copy: 'Hot take: being agreeable is just a polished way of having no backbone.\n\nKeeping the peace feels noble — until you realize you\'ve been on the losing side of every argument by default.\n\nCast your vote. duhbate.app',
   },
   {
     platform: 'x',
@@ -22,15 +38,7 @@ const POSTS: Post[] = [
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
-  },
-  {
-    platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
-  },
-  {
-    platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
   },
   {
     platform: 'x',
@@ -39,14 +47,6 @@ const POSTS: Post[] = [
   {
     platform: 'threads',
     copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
-  },
-  {
-    platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
-  },
-  {
-    platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
   },
 ]
 
