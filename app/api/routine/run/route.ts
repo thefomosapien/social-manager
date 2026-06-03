@@ -7,46 +7,47 @@ const TARGET_DRAFTS = 5
 
 type Post = { platform: 'x' | 'threads'; copy: string }
 
+// Content pool refreshed 2026-06-03. First 5 cover all required types (alternating x/threads).
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Is being chronically online making us worse at real arguments, or just faster at bad ones? Pick a lane. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: being perpetually early is a flex, not a courtesy.\n\n71% voted yes. The chronically-on-time crowd just won the moral high ground — again.\n\nThink they\'re wrong? Make your case. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'You drop the argument. The other side fires back. The crowd votes. Three phases, no moderator, no mercy — just the receipts. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody actually wants their opinion changed. They want their take confirmed by someone credible enough to make it feel like growth.\n\nIf that lands uncomfortably, good.\n\nCome argue about it. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your take has been sitting in your head with no challenger. Time to stress-test it. Make your case. Face the crowd. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: '"I don\'t watch the news" isn\'t a peace practice. It\'s just uninformed with less guilt.\n\nUnpopular? Maybe. Wrong? Come fight about it.\n\nduhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: work-life balance is your problem, not your company\'s. 66% agreed. Your employer isn\'t your therapist. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Duhbate is simple: drop a take, face the counter, let the community vote — no ties, no "agree to disagree."\n\nEvery debate has a winner. Every argument gets tested.\n\nStart one. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Most people calling themselves "open-minded" have already decided and are waiting for you to agree. Debate that. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'You\'ve been watching internet debates go sideways for years. You\'ve had better takes. You still do.\n\nDuhbate gives your argument a real arena — defend it under fire, let votes settle it.\n\nMake your case. duhbate.app',
   },
 ]
 
