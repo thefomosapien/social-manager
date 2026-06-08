@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: people who "just ask questions" already know their answer. The question is just a shield. Agree or defend yourself. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: working remotely makes you lazier — and 61% of Duhbate voters admitted it.\n\nNobody actually agreed on what counts as lazy. That\'s the real debate.\n\nCome settle it properly. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'On Duhbate: you make your case, someone counters it, the crowd picks a winner. No panel. No host. No spin. Just the argument and whether it survives contact. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'The most dangerous opinion isn\'t the controversial one. It\'s the common one nobody bothers to examine.\n\nThose go unchallenged for years. Decades. Sometimes forever.\n\nWhat "obvious" belief are you actually not sure about? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'You\'ve never had to defend your take to someone who actually disagrees. That\'s not an insult — it\'s just the truth. Ready to change that? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Hot take: the reason you can\'t explain your opinion clearly is that you don\'t actually hold it — you inherited it.\n\nMost beliefs don\'t survive the first real question. That\'s not a flaw. That\'s a test.\n\nWhat do you actually believe? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: apologizing first doesn\'t make you the bigger person — it makes you the one who lost. 67% voted yes. The stubborn are vindicated. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Duhbate is three rounds: make your argument, face the counter, let the crowd decide.\n\nNo algorithms picking winners. No likes protecting bad takes. Just the argument, tested in public.\n\nIf your take is right, it\'ll survive. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Genuine question: if you changed your mind on something important, would you say so publicly? Or just quietly update your behavior? There\'s a Duhbate for this. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Your take has been living rent-free in your head for years. Never challenged. Never put to a vote. Never had to survive someone who actually disagrees.\n\nThat\'s not confidence. That\'s avoidance.\n\nBring it to Duhbate. duhbate.app',
   },
 ]
 
