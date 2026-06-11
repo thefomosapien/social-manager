@@ -1,5 +1,6 @@
 import { type NextRequest } from 'next/server'
 import { createServiceClient } from '@/lib/supabase/service'
+import { readFallback } from '@/lib/posts-fallback'
 
 export const dynamic = 'force-dynamic'
 
@@ -97,7 +98,8 @@ export async function GET(request: NextRequest) {
   const { data, error } = await query
 
   if (error) {
-    return Response.json({ error: error.message }, { status: 500 })
+    const posts = readFallback(brand_id, status)
+    return Response.json({ posts, fallback: true })
   }
 
   return Response.json({ posts: data })

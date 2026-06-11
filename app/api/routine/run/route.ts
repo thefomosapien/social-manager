@@ -1,5 +1,6 @@
 import { type NextRequest } from 'next/server'
 import { createServiceClient } from '@/lib/supabase/service'
+import { readFallback, insertFallback } from '@/lib/posts-fallback'
 
 export const dynamic = 'force-dynamic'
 
@@ -64,22 +65,31 @@ export async function GET(request: NextRequest) {
     return Response.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const supabase = createServiceClient()
+  // Check existing draft count, falling back to /tmp store if Supabase is unavailable
+  let currentCount = 0
+  let usingFallback = false
 
-  const { data: existing, error: fetchError } = await supabase
-    .from('posts')
-    .select('id')
-    .eq('brand_id', brand_id)
-    .eq('status', 'draft')
-
-  if (fetchError) {
-    return Response.json({ error: fetchError.message }, { status: 500 })
+  try {
+    const supabase = createServiceClient()
+    const { data: existing, error: fetchError } = await supabase
+      .from('posts')
+      .select('id')
+      .eq('brand_id', brand_id)
+      .eq('status', 'draft')
+    if (fetchError) throw fetchError
+    currentCount = existing?.length ?? 0
+  } catch {
+    usingFallback = true
+    currentCount = readFallback(brand_id, 'draft').length
   }
 
-  const currentCount = existing?.length ?? 0
-
   if (currentCount >= TARGET_DRAFTS) {
-    return Response.json({ message: 'Queue is full', drafts: currentCount, inserted: 0 })
+    return Response.json({
+      message: 'Queue is full',
+      drafts: currentCount,
+      inserted: 0,
+      storage: usingFallback ? 'fallback' : 'supabase',
+    })
   }
 
   const needed = TARGET_DRAFTS - currentCount
@@ -87,22 +97,37 @@ export async function GET(request: NextRequest) {
   const inserted = []
 
   for (const post of toInsert) {
-    const { data, error } = await supabase
-      .from('posts')
-      .insert({ brand_id, platform: post.platform, copy: post.copy, status: 'draft', source: 'routine' })
-      .select()
-      .single()
-
-    if (error) {
-      return Response.json({ error: error.message, inserted }, { status: 500 })
+    if (!usingFallback) {
+      try {
+        const supabase = createServiceClient()
+        const { data, error } = await supabase
+          .from('posts')
+          .insert({ brand_id, platform: post.platform, copy: post.copy, status: 'draft', source: 'routine' })
+          .select()
+          .single()
+        if (error) throw error
+        inserted.push({ ...data, _storage: 'supabase' })
+        continue
+      } catch {
+        usingFallback = true
+      }
     }
-    inserted.push(data)
+
+    const record = insertFallback({
+      brand_id,
+      platform: post.platform,
+      copy: post.copy,
+      status: 'draft',
+      source: 'routine',
+    })
+    inserted.push({ ...record, _storage: 'fallback' })
   }
 
   return Response.json({
     message: `Inserted ${inserted.length} post${inserted.length === 1 ? '' : 's'}`,
     drafts_before: currentCount,
     drafts_after: currentCount + inserted.length,
+    storage: usingFallback ? 'fallback (/tmp)' : 'supabase',
     posts: inserted,
   })
 }
