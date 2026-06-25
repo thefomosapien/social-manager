@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: people who say "I don\'t care what others think" care the most. Are you brave enough to prove them wrong? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: going to the gym at 5am is a personality trait, not a workout.\n\n73% voted yes. The sleep-deprived masses have spoken.\n\nWhat\'s your 5am hot take? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Make your argument. Face the counter. Let the crowd decide. Three phases. Two sides. One winner. That\'s it. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody actually wants feedback. They want validation with a disclaimer.\n\nThe people who say "be brutally honest" are the first ones to get defensive.\n\nProve me wrong. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your hottest take hasn\'t survived a real challenge yet. Enter the arena. Make your case. Face the crowd. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Hot take: the loudest person in the meeting is almost never the smartest person in the room.\n\nThey\'re just louder.\n\nIs confidence overrated? Or is it the whole game? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: ghosting is a valid response when you\'ve tried everything else. 61% voted yes. The closure-seekers lost. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Three phases. Two sides. One winner.\n\nYou drop your take. Someone counters it. The crowd votes — no judges, no moderators, just people deciding who\'s actually right.\n\nStep into the arena. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: '"Everything happens for a reason" is the most comforting lie we tell each other. And nobody\'s challenging it. Yet. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Most opinions die untested — shared once in a group chat, agreed with by five friends, never challenged.\n\nDuhbate is the arena where your take faces real opposition.\n\nMake your case. Face the crowd. duhbate.app',
   },
 ]
 
