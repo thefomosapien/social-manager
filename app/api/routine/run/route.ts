@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: "Hot take: you can tell more about someone from what they won't debate than what they will. Scared to be wrong? That's the real L. What's the take you keep dodging? duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: "The community decided: confidence without receipts is just arrogance with better marketing.\n\n73% voted yes. Bold claims need proof — the crowd doesn't care how certain you sound.\n\nDrop your spiciest take and back it up. duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Drop a take. Get countered. Let the crowd vote. Three steps between you and finding out if you\'re actually right. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: "Nobody actually wants to be challenged. They want to be agreed with, loudly.\n\nThe second someone pushes back, the debate was suddenly 'pointless' or 'not worth my time.'\n\nWhat do you actually believe — or are you just performing opinions? duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: "Your take sounds great in your head. It always does. But has it survived a real counter? One argument. One crowd. Find out now. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: "Hot take: \"I don't care what people think\" is the most popular opinion on the internet.\n\nEveryone's performing indifference. Nobody's actually unbothered.\n\nWhat's the take you secretly want validated? Cast it on Duhbate. duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: "The community decided: apologizing first doesn't make you weak — it makes you strategic. 69% agreed. Turns out the crowd respects the move. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: "Argument. Counter. Vote. That's the whole game.\n\nNo moderators. No algorithm deciding whose side is right. Just the crowd — unfiltered and unimpressed.\n\nMake your case at duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: "There are takes that need to be said and people too scared to say them. This is the platform where they get a fair fight. Say it. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: "Some debates never get settled because nobody's willing to commit to a side.\n\nDuhbate fixes that. One position. One counter. The crowd decides who's actually right — no waffling allowed.\n\nPick a side. Defend it. duhbate.app",
   },
 ]
 
