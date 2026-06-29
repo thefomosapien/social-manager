@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: "Hot take: anyone who says 'it's complicated' just doesn't want to defend their position. Simplicity is a skill. Complexity is a shield. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: "The community decided: ghosting is only acceptable when the other person absolutely knew what they did.\n\n71% voted yes. The accountability era has arrived — but only when it applies to them.\n\nWhat's your verdict? duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Drop your take. Face the counter. Let the crowd decide. That\'s Duhbate — no safe room, no moderator, just arguments and votes. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: "Nobody actually changes their mind from a debate. They just find better words for what they already believed.\n\nOr do they? Prove me wrong — that's what the crowd is for.\n\nWhat's the last take you genuinely abandoned? duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: "Your opinion lives rent-free in your head until someone challenges it. Start a debate. See if it survives. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: "Hot take: the smartest people in every room are the ones who say the least.\n\nOr they're just quiet. There's a real difference and most people can't tell.\n\nWhich one are you, actually? duhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: confidence without credentials is just noise. 69% agreed. The room has spoken — quietly and correctly. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: "Here's how it works:\n\nYou make the case. Someone counters it. The crowd votes.\n\nNo echo chambers. No moderators. No mercy. Just the best argument wins — and you'll know exactly why you lost.\n\nduhbate.app",
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: "Everyone has a take they're afraid to say out loud. That's the one worth debating. duhbate.app",
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: "Most arguments end in a draw because nobody's keeping score.\n\nDuhbate keeps score. Make your case, face the counter, and let the crowd hand down a verdict.\n\nYour next debate is waiting. duhbate.app",
   },
 ]
 
