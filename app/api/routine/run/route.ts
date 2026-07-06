@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: the people most obsessed with "authenticity" are the least authentic people in the room. Performative honesty is still a performance. Agree or fight back. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: telling someone "you look tired" is a passive-aggressive power move. 73% voted yes.\n\nWe\'ve all done it. Most of us knew exactly what we were doing.\n\nWhich backhanded compliment are you ready to defend? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Drop your take. Watch it get countered. Let the crowd vote. No influencer immunity. No echo chamber. Just your argument vs. everyone else\'s. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody actually changes their mind in an argument. They just decide whether to admit it out loud.\n\nThe debate doesn\'t end when someone wins — it ends when someone gets tired of being right.\n\nWhat\'s the opinion you\'ve quietly updated but never said? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your hottest take has never been tested. Find out if you\'re actually right or just unchallenged. Post it. Defend it. Let the crowd decide. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Hot take: confidence isn\'t a personality trait — it\'s just what certainty looks like before it gets tested.\n\nThe most confident person in the room is either the most prepared or the most delusional. There\'s no third option.\n\nCast your vote. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: apologizing when you\'re not wrong is a social skill, not a sign of weakness. 61% voted yes. The pragmatists took the W. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t care about your feelings.\n\nThe arena\'s open. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Unpopular truth: most group decisions are just whoever spoke first with the most confidence. The best idea rarely wins. The loudest one does. Change my mind. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Most opinions die in group chats — untested, unchallenged, and quietly deleted when the vibe shifts.\n\nDuhbate is the arena where your take either survives contact or doesn\'t.\n\nMake your case. Face the crowd. duhbate.app',
   },
 ]
 
