@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: saying "I don\'t like conflict" is just a polite way of saying you\'d rather be wrong in peace. Is conflict avoidance actually a character flaw? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: being the smartest person in the room isn\'t a flex — it\'s a sign you\'re in the wrong room.\n\n73% of Duhbate voters agreed. Find harder rooms.\n\nWhat debate have you been ducking because you might lose? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'An argument. A counter. A crowd vote. That\'s all it takes to settle anything. Welcome to Duhbate — where your hot take meets its match. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Everyone has a take they\'re too afraid to say out loud.\n\nNot because it\'s wrong. Because they don\'t want to defend it.\n\nWhat\'s the opinion you\'d argue in private but never post publicly? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your take isn\'t just an opinion. It\'s a challenge waiting to happen. Step into the arena and let the crowd decide. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Hot take: most "life advice" is just the advice-giver\'s unresolved issues wearing a wisdom costume.\n\nWho\'s actually qualified to tell you how to live?\n\nThe community wants to weigh in. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: working hard and being busy are not the same thing. 81% voted yes. The performative grinders lost. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Three phases. Two sides. One winner.\n\nMake your case. Face the counter. Let the crowd vote — no appeals, no moderators.\n\nThis is how opinions get stress-tested. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Uncomfortable truth: most people don\'t want to be right. They want to feel right. There\'s a difference. Debate it. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'You\'ve been thinking it for months. Maybe years.\n\nSomeone out there has the counter. The crowd has the verdict.\n\nDrop your take. Defend it. Let Duhbate settle it. duhbate.app',
   },
 ]
 
