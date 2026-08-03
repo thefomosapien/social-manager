@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: the loudest person in any argument is usually the least sure of themselves. Being certain is quiet. Change my mind. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: eating at your desk isn\'t productivity — it\'s a red flag. 72% of Duhbate voters agreed.\n\nIs your lunch break a vibe or a symptom? The crowd has spoken.\n\nMake your case next. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Three phases. Two sides. One winner. Drop your take. Get countered. Let the crowd decide who actually had a point. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Every opinion you\'ve never had to defend in public is just a vibe, not a position.\n\nYou haven\'t tested it. You don\'t know if it holds. You\'re just guessing you\'re right.\n\nThat\'s fine. Or is it? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Make your case. Face the crowd. If your argument can\'t survive five minutes of real pushback, it never belonged to you anyway. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'There\'s a version of you that goes full villain arc the moment someone slightly disagrees at dinner.\n\nThat version of you? It\'s the interesting one.\n\nWhat\'s the take you\'re most afraid to lose? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: "playing devil\'s advocate" is usually just something you actually believe but want plausible deniability for. 69% said yes. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'You make the argument. Someone counters it. The crowd votes.\n\nNo moderator. No algorithm. No one sliding into your DMs. Just the debate.\n\nThat\'s Duhbate. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Unpopular opinion: most "hot takes" are lukewarm reheats of something someone else said first. What\'s your original one? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Your best argument has been sitting in your head for years — untested, unchallenged, comfortable.\n\nBring it to the arena. Drop it. Defend it. Let the crowd decide if you\'re as right as you think.\n\nMake your case. duhbate.app',
   },
 ]
 
