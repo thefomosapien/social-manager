@@ -1,0 +1,51 @@
+{
+  "generated": "2026-08-05",
+  "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+  "note": "Staged posts — cannot insert until Supabase project is restored. See action-required block below.",
+  "action_required": {
+    "problem": "Supabase project (tijhwlnxdfcmtdkhtupk.supabase.co) returns ENOTFOUND — project has been deleted.",
+    "steps": [
+      "1. Create a new Supabase project at supabase.com",
+      "2. Run supabase/migrations/001_initial_schema.sql to set up tables and seed the Duhbate brand row",
+      "3. Update three Vercel env vars in the social-manager project: NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY",
+      "4. Redeploy (push to production branch or trigger redeploy in Vercel dashboard)"
+    ]
+  },
+  "posts": [
+    {
+      "platform": "x",
+      "type": "hot-take question",
+      "copy": "Is confidence just arrogance that worked out? The community's about to decide. duhbate.app",
+      "status": "draft",
+      "source": "routine"
+    },
+    {
+      "platform": "threads",
+      "type": "community results",
+      "copy": "The community voted. 74% said working harder is not the same as working smarter — and made the other 26% feel personally attacked.\n\nThe debate was messier than the vote.\n\nSee how it played out. duhbate.app",
+      "status": "draft",
+      "source": "routine"
+    },
+    {
+      "platform": "x",
+      "type": "platform explainer",
+      "copy": "You make the case. The crowd counters it. Votes decide the winner. Three phases. Two sides. One truth. duhbate.app",
+      "status": "draft",
+      "source": "routine"
+    },
+    {
+      "platform": "threads",
+      "type": "open provocation",
+      "copy": "Nobody actually wants their mind changed.\n\nThey want to win. They want the other person to say \"you're right.\" They want applause, not truth.\n\nProve us wrong at duhbate.app",
+      "status": "draft",
+      "source": "routine"
+    },
+    {
+      "platform": "x",
+      "type": "CTA",
+      "copy": "You've got a take. Someone else has the counter. The crowd has the verdict. Make your case. duhbate.app",
+      "status": "draft",
+      "source": "routine"
+    }
+  ]
+}
