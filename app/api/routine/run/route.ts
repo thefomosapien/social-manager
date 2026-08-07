@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: loyalty to a bad opinion is just ego wearing a mask. When did you last actually change your mind? Make the argument. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: crying at movies doesn\'t make you soft — it makes you human.\n\n68% voted yes. The stoics lost this one.\n\nWhat\'s the debate you keep dodging? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Three phases. Two sides. One winner. Drop your take, face the counter, let the crowd vote. No judges. No panels. Just debate. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody actually wants to be told they\'re wrong. They want to be understood while being wrong — which is why most arguments go nowhere.\n\nWhat\'s the take you hold that you\'re not ready to defend?\n\nduhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your opinion isn\'t a fact until it survives a challenge. Make your case. Face the crowd. Win the debate. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Everyone says they want honest feedback. Almost nobody means it.\n\nThe gap between what people say they want and what they\'ll tolerate is where every real argument lives.\n\nWhat\'s the hardest truth you weren\'t ready to hear? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: apologizing first doesn\'t mean you lost. 73% of Duhbate voters agreed. Pride costs more than peace. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Most debates die before they start — because people only talk to people who already agree.\n\nDuhbate is different. Make your argument. Face someone who thinks you\'re wrong. Let the crowd decide.\n\nThree phases. Two sides. One truth. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'Confidence without evidence is noise. But waiting for perfect evidence before speaking is just fear. Where\'s the line? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'Your take has never been tested.\n\nDuhbate gives it a real arena — make your argument, face the counter, let the crowd decide who\'s actually right.\n\nStop defending yourself in the mirror. Make your case. duhbate.app',
   },
 ]
 
