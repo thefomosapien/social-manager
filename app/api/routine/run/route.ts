@@ -10,23 +10,23 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: everyone who says "do your own research" just means "agree with me." Is intellectual independence real or a convenient myth? duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided.\n\nWe asked: Is therapy just paying someone to validate you? 59% said yes — and held the line when challenged.\n\nCome argue. Come lose. Or maybe come win. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Three phases. Two sides. One winner. Drop your take → the other side counters → votes decide the truth. No algorithm picking favorites. Just debate. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody is as open-minded as they think they are.\n\nWe say we want to hear different perspectives. What we actually want is for different perspectives to agree with us.\n\nWhat\'s the opinion you\'d never change no matter who countered it? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your take sounds right until it meets a real counter. Make your case. Face the crowd. Find out. duhbate.app',
   },
   {
     platform: 'threads',
@@ -34,7 +34,7 @@ const POSTS: Post[] = [
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'Unpopular opinion: confidence isn\'t a personality trait — it\'s just the willingness to be publicly wrong. Are the boldest people just the least self-aware? duhbate.app',
   },
   {
     platform: 'threads',
