@@ -10,43 +10,43 @@ type Post = { platform: 'x' | 'threads'; copy: string }
 const POSTS: Post[] = [
   {
     platform: 'x',
-    copy: 'Hot take: being "agreeable" is just a polished way of having no backbone. Is keeping the peace actually cowardice in disguise? Cast your vote. duhbate.app',
+    copy: 'Hot take: needing to "sleep on" every decision isn\'t thoughtful — it\'s just being scared to be wrong fast. Agree or fight back. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Cold take disguised as a hot take: "I see both sides" is just intellectual cowardice with better PR.\n\nChoosing a side makes you vulnerable. That\'s the whole point.\n\nWhich debate are you ducking right now? duhbate.app',
+    copy: 'The community decided: calling someone "confident" is just a polite way of saying they\'re too loud to argue with.\n\n67% voted yes. Turns out we\'ve all been nodding along to the wrong people.\n\nWhich overrated quality are you debating next? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'The community decided: canceling plans is only acceptable if you were dreading them the whole time. 78% voted yes. The introverts won again. duhbate.app',
+    copy: 'Three phases. Two sides. One winner. Drop your take → face the counter → let the crowd vote. The crowd doesn\'t grade on a curve. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'The community decided: mornings are overrated, and anyone calling themselves a "morning person" is just overcompensating.\n\n64% of Duhbate voters agreed. The night owls have spoken.\n\nAre you next? duhbate.app',
+    copy: 'Nobody actually changes their mind in an argument. They just find better reasons to believe what they already believed.\n\nSo what\'s the point?\n\nMaybe it\'s not about changing minds. Maybe it\'s about finding out if your take can survive contact with reality. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Three phases. Two sides. One winner. Make your argument → face the counter → let the crowd decide. No moderators. No mercy. duhbate.app',
+    copy: 'Your opinion lives rent-free in your head. Time to evict it to a debate floor. Make your case. Face the crowd. Win or learn. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Three phases. Two sides. One winner.\n\nMake your argument. Face the counter. Let the crowd vote — and the crowd doesn\'t lie.\n\nNo safe spaces. Just debate. duhbate.app',
+    copy: 'Scrolling past a post you disagree with instead of engaging is the most common form of intellectual cowardice.\n\nWe call it "not feeding the trolls." Sometimes we\'re just protecting a take we can\'t actually defend.\n\nWhat did you scroll past today? duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Unpopular truth: most "free thinkers" just traded one herd for a smaller, cooler one. There\'s no escaping the influence. Fight me. duhbate.app',
+    copy: 'The community decided: honesty is overrated. 71% said they\'d rather hear a comforting lie than a brutal truth. Real talk. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'There\'s a version of every argument where you\'re completely wrong. You just haven\'t heard it yet.\n\nThat\'s not a threat. That\'s an invitation.\n\nWhat\'s the take you\'re most afraid to defend? duhbate.app',
+    copy: 'Three phases. Two sides. One winner.\n\nYou drop your take. The crowd counters it. Everyone votes — and the crowd doesn\'t lie.\n\nNo moderation. No safe landings. Just you, your argument, and the truth. duhbate.app',
   },
   {
     platform: 'x',
-    copy: 'Make your case. Face the crowd. Win the debate. Your take isn\'t worth much until it survives a real challenge. Start one now. duhbate.app',
+    copy: 'The loudest person in the room rarely has the strongest argument. They just have the least to lose from being wrong. duhbate.app',
   },
   {
     platform: 'threads',
-    copy: 'Most opinions die in group chats — never tested, never challenged.\n\nDuhbate gives your take a real arena: drop it, defend it, let the crowd decide if you\'re actually right.\n\nMake your case. Face the crowd. duhbate.app',
+    copy: 'There\'s a debate you\'ve been winning in your own head for years.\n\nThe problem? Nobody\'s ever pushed back hard enough to test it.\n\nThat ends now. Make your case. Face the crowd. Find out if you\'re actually right. duhbate.app',
   },
 ]
 
