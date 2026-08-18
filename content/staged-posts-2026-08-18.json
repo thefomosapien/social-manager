@@ -1,0 +1,42 @@
+[
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "Hot take: saying \"it's complicated\" in an argument is just a polite way of refusing to be wrong. Pick a side or pick a different conversation. The crowd decides. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "hot-take-question"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "copy": "The debate is closed. We asked: should you ghost someone who ghosted you first? 74% said yes — no explanation needed. 26% said take the high road anyway.\n\nThe crowd has very little patience for people who start a game they won't finish.\n\nThink they got it wrong? Come argue. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "community-results"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "You make the argument. Someone has to counter it publicly. The crowd votes on who won. No moderators. No algorithms. Just the take, the pushback, and the verdict. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "platform-explainer"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "copy": "Most \"healthy debate\" online is just two people performing certainty at each other while the audience picks the side they already agreed with.\n\nActual persuasion is almost extinct. We built the place where it still has a chance.\n\nduhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "open-provocation"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "Stop defending your takes only to people who already agree. Put it in front of someone who doesn't. See if it holds. Make your case. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "cta"
+  }
+]
