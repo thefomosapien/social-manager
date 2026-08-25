@@ -1,0 +1,42 @@
+[
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "type": "hot-take question",
+    "copy": "Hot take: most people arguing online aren't trying to win — they're trying to feel right. There's a difference. Can you tell which one you are? Prove it. duhbate.app",
+    "status": "draft",
+    "source": "routine"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "type": "community results",
+    "copy": "The community voted. Turns out 67% of you think remote workers are less productive than in-office. Bold.\n\nThe 33% who disagreed? They came with data. Salary comparisons. Output metrics. The kind of receipts that make HR nervous.\n\nThe crowd has spoken — but the debate isn't over. duhbate.app",
+    "status": "draft",
+    "source": "routine"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "type": "platform explainer",
+    "copy": "Three phases. Two sides. One winner. Drop your take → the crowd counters → votes settle it. No algorithms. No echo chambers. Just the argument. duhbate.app",
+    "status": "draft",
+    "source": "routine"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "type": "open provocation",
+    "copy": "We all know someone who says \"I love a good debate\" — until someone disagrees with them. Then suddenly it's \"you're being toxic.\"\n\nDebating isn't arguing. Disagreement isn't disrespect. Changing your mind isn't losing.\n\nWhen did we forget how to think out loud with other people? duhbate.app",
+    "status": "draft",
+    "source": "routine"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "type": "CTA",
+    "copy": "You have a take. Everyone does. But yours hasn't been stress-tested yet. Make your case. Face the crowd. Let the votes decide who's actually right. duhbate.app",
+    "status": "draft",
+    "source": "routine"
+  }
+]
