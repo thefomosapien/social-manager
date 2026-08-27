@@ -1,0 +1,42 @@
+[
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "Unpopular opinion: working from home makes people less productive. Too spicy? Prove us wrong. The community will decide. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "hot-take question"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "copy": "The community has spoken.\n\nThis week's debate: Is breakfast the most important meal — or the most overrated one? Thousands weighed in. The argument got heated fast.\n\nTeam \"skip breakfast\" pulled off a surprise win by 9 points. The brunch crowd is filing their appeals now.\n\nduhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "community results"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "Three phases. Two sides. One winner. Make your argument. Face the crowd. Let the votes decide. That's Duhbate — where opinions go to get tested. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "platform explainer"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "threads",
+    "copy": "Everyone says they want honest feedback. Nobody actually wants honest feedback.\n\nOr do they? Maybe the ones who ask and mean it are the ones who actually improve fastest.\n\nWe're not going to settle it here. That's what duhbate.app is for.\n\nduhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "open provocation"
+  },
+  {
+    "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+    "platform": "x",
+    "copy": "Make your case. Face the crowd. Win or lose — you'll know exactly where you stand and why. Your argument is waiting. duhbate.app",
+    "status": "draft",
+    "source": "routine",
+    "type": "CTA"
+  }
+]
