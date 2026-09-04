@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-04",
+  "brand_id": "c2af994a-16b7-41f6-8f66-6a37f1d098df",
+  "status": "BLOCKED — Supabase project deleted, DNS ENOTFOUND on every request",
+  "posts": [
+    {
+      "platform": "x",
+      "type": "hot-take question",
+      "copy": "Hot take: you've never actually changed your mind in an argument. You just got tired. Prove us wrong. duhbate.app"
+    },
+    {
+      "platform": "threads",
+      "type": "community results",
+      "copy": "The community has spoken.\n\nAfter 3 days and 847 votes, the debate is settled: working from home makes you MORE productive. The office defenders put up a fight, but the numbers don't lie.\n\nThink you can flip the next one? duhbate.app"
+    },
+    {
+      "platform": "x",
+      "type": "platform explainer",
+      "copy": "Three phases. Two sides. One winner. Make your argument → face the crowd → votes decide. That's Duhbate. duhbate.app"
+    },
+    {
+      "platform": "threads",
+      "type": "open provocation",
+      "copy": "Nobody actually cares about being right.\n\nThey care about not being wrong out loud, in front of people. That's why most debates never get settled — no one wants a real verdict.\n\nDuhbate does real verdicts. duhbate.app"
+    },
+    {
+      "platform": "x",
+      "type": "CTA",
+      "copy": "Make your case. Face the crowd. Let the votes settle it. That's what Duhbate is for. Your argument needs an audience. duhbate.app"
+    }
+  ]
+}
